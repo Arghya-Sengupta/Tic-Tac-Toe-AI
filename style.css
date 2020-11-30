@@ -43,17 +43,17 @@ table
 	font-size: 1em;
 	font-weight: bold;
 	border: 0;
-    background: #ff8f60;
-    display: block;
-    margin: 20px auto;
-    text-align: center;
-    border: 3px solid #fa7a45;
-    padding: 14px 40px;
-    outline: none;
-    color: black;
-    border-radius: 24px;
-    transition: 0.25s;
-    cursor: pointer;
+	background: #ff8f60;
+    	display: block;
+    	margin: 20px auto;
+    	text-align: center;
+    	border: 3px solid #fa7a45;
+    	padding: 14px 40px;
+    	outline: none;
+    	color: black;
+    	border-radius: 24px;
+    	transition: 0.25s;
+    	cursor: pointer;
 }
 
 .replayBtn:hover
