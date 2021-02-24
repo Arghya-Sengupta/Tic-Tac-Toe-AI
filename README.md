@@ -1,5 +1,5 @@
-#A classical Tic Tac Toe game where the player plays against the computer.
+# A classical Tic Tac Toe game where the player plays against the computer.
 
-##Preview
+## Preview
 You can see the live website here:
 * [Github Pages](https://arghya-sengupta.github.io/Tic-Tac-Toe-AI/)
