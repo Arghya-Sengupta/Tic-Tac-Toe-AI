@@ -122,6 +122,8 @@ function bestMove(board)
 		if(board[i]=='-')
 		{
 			board[i] = 'O';
+			if(checkWin(board, AI))
+				return i;
 			var score = minimax(board,false);
 			board[i] = '-';
 			if(score>maxScore)
@@ -136,7 +138,7 @@ function bestMove(board)
 
 function minimax(newBoard, isMaximizing) 
 {
-	if (checkWin(newBoard, H))
+    if (checkWin(newBoard, H))
         return -10;
     if (checkWin(newBoard, AI))
         return 10;
